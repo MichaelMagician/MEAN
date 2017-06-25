@@ -1,0 +1,6 @@
+<div class="col-md-8 col-md-offset-2">
+  <mg-message [inputMessage]="message" (editEvent)="message.content =$event" *ngFor="let message of messages">
+  </mg-message>
+</div>
+
+<!-- (editEvent)="message.content= $event" -->

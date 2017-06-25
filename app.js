@@ -6,11 +6,11 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 
 var appRoutes = require('./routes/app');
-var mongoose = require('mongoose');
+//var mongoose = require('mongoose');
 
 
 var app = express();
-mongoose.connect("Localhost:27017/node-angular");
+//mongoose.connect("Localhost:27017/node-angular");
 console.log("connect to mongo db")
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));

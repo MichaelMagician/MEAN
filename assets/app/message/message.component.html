@@ -1,0 +1,15 @@
+<article class="panel panel-primary">
+  <!-- <input type="Text" [(ngModel)]="message.content" /> -->
+  <div class="panel panel-body" [ngStyle]="{backgroundColor: bColor}" (mouseenter)="onMouseEnter()" (mouseleave)="onMouseLeave()">
+    {{iMessage.content}}
+  </div>
+  <footer class="panel-footer">
+    <div class="author">
+      {{iMessage.author}}
+    </div>
+    <div class="config">
+      <a href="#" (click)="onEdit()">edit</a>
+      <a href="#">delete</a>
+    </div>
+  </footer>
+</article>
