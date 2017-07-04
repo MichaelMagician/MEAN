@@ -1,0 +1,14 @@
+<h5 class="row spacing">
+<nav class="col-md-8 col-md-offset-2" role="navigation">
+  <ul class="nav nav-tabs">
+        <li routerLinkActive="active"><a [routerLink]="['signup']">Signup</a></li>
+        <li routerLinkActive="active"><a [routerLink]="['signin']">SignIn</a></li>
+        <li routerLinkActive="active"><a [routerLink]="['logout']">Logout</a></li>
+  </ul>
+</nav>
+</h5>
+
+<br />
+<div class="row">
+  <router-outlet></router-outlet>
+</div>

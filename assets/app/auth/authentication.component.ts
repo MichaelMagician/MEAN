@@ -1,12 +1,11 @@
 import {Component} from '@angular/core';
 
 @Component({
-selector:"mg-authentication",
-template:`<h1>authentication</h1>`
-
+  selector: "mg-authentication",
+  templateUrl: "./authentication.component.html"
 })
 
 
-export class AuthenticationComponent{
+export class AuthenticationComponent {
 
 }
